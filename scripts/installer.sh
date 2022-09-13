@@ -82,11 +82,11 @@ req_extensions = ext
 x509_extensions = caext
 
 [ dn ]
-C = AA
-ST = QQ
-L = JJ
-O  = the culture
-CN = *.appspot.com
+C = RO
+ST = Bucharest
+L = Sector6
+O  = DCPD
+CN = *.cloud.ro
 
 [ ext ]
 subjectAltName=@san
@@ -98,7 +98,7 @@ subjectKeyIdentifier = hash
 subjectAltName=@san
 
 [ san ]
-DNS.1 = *.appspot.com
+DNS.1 = *.cloud.ro
 DNS.2 = my.remarkable.com
 DNS.3 = internal.cloud.remarkable.com
 DNS.4 = ping.remarkable.com
